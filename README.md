@@ -12,5 +12,5 @@
 
 ## My Notes:
 - I used Postgres with Docker so you can find how to install Postgres via Docker in the 'docker_postgres_installation.txt' file.
-- I preferred not to use Python Functions since there are only 2 api requests and 2 tables but for sure it would have been way better.
+- I preferred not to use Python Functions since there are only 2 api requests and 2 tables but for sure it would have been way better if used.
 - I already created my tables before inserting the .csv datas to Postgres.
