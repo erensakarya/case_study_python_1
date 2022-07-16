@@ -1,0 +1,10 @@
+Container Creation:
+docker run --rm --name posgtre_db -e POSTGRES_PASSWORD=password -p 5432:5432 -d postgres:latest
+
+Container Attach:
+docker exec -it postgre_db psql -U postgres
+
+Useful Commands:
+\l --> show databases;
+\c <db_name> --> use the db;
+\dt --> show tables;
